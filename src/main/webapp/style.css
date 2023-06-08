@@ -1,27 +1,80 @@
-.encabezado{
-    font-size: 300%;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5c5c5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
     text-align: center;
-    font-family: "Arial Black";
+    color: #333333;
 }
-.centrado{
+h2{
     text-align: center;
-    align-content: center;
-    font-family: "Arial";
-    font-size: 150%;
+    color: black;
 }
-.subtitulo{
+p{
     text-align: center;
-    font-family: "Arial Narrow";
-    font-size: 200%;
+    color: black;
+    font-family: Arial, sans-serif;
 }
-boton{
-    height: 5%;
-    width: 10%;
-    color: darkgray;
-    font-size: 100%;
-    align-content: center;
+.button-link {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
 }
-.campoTexto{
-    width: 10%;
-    height: 3%;
+
+.button-link:hover {
+    background-color: #45a049;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    text-align: center;
+    background-color: #45a049;
 }

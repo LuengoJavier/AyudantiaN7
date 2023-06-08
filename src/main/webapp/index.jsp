@@ -6,10 +6,10 @@
     <title>Menú</title>
   </head>
   <body>
-    <h1 class = "encabezado">Menú principal usuarios</h1>
+    <h1>Menú principal usuarios</h1>
     <br/>
     <form action="registroUsuario" method="get">
-      <div class="centrado">
+      <div class="form-group">
         <input type="submit" value="Registrar usuario" class="boton">
       </div>
     </form>

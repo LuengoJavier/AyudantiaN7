@@ -1,5 +1,4 @@
-package model;
-
+package com.registro.tarea1appweb.model;
 public class Usuario {
     private String rut;
     private String nombre;

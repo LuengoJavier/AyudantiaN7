@@ -12,18 +12,21 @@
     <title>Registro usuario</title>
   </head>
   <body>
-    <h1 class="encabezado">Registro usuario</h1>
+    <h1>Registro usuario</h1>
     <form action="registroUsuario" method="post">
-        <div class="centrado">
-            <label>Nombre:</label>
-            <input name="nombre" type="text" class="campoTexto">
-            <label>Rut:</label>
-            <input name="rut" type="text" class="campoTexto">
-            <label>Edad:</label>
-            <input name="edad" type="number" class="campoTexto">
-            <br><br>
-            <input type="submit" value="enviar" class="boton">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
         </div>
+        <div class="form-group">
+            <label for= "rut">Rut:</label>
+            <input type="text" id = "rut" name="rut" required>
+        </div>
+        <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+        </div>
+        <input type="submit" value="Registrar" class="boton">
     </form>
   </body>
 </html>
